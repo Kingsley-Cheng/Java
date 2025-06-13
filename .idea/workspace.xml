@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c342596c-3a64-409f-8d23-a613a45ac274" name="更改" comment="" />
+    <list default="true" id="09d3b909-110b-48ea-beb4-d4193cf72ef6" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +13,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
   "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="2yJ5TXxDM2Lhxyu6DDSTTYzIA6I" />
+  <component name="ProjectId" id="2yJfR7qYnBgegf7rDN2WsZa8TSq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,32 +26,28 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/kingsleycheng/Documents/github/Java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "onboarding.tips.debug.path": "/Users/kingsleycheng/Documents/github/Java/src/Main.java"
   }
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="c342596c-3a64-409f-8d23-a613a45ac274" name="更改" comment="" />
-      <created>1749539844067</created>
+      <changelist id="09d3b909-110b-48ea-beb4-d4193cf72ef6" name="更改" comment="" />
+      <created>1749557586511</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1749539844067</updated>
+      <updated>1749557586511</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
