@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5532f388-c8e6-4b5d-85ec-13a0893a6902" name="更改" comment="update(2025-08-06)">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BasicJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarTest/CalendarTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalendarTest/src/CalendarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTest/EmployeeTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeTest/src/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParamTest/ParamTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParamTest/src/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParamTest/src/ParamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticTest/StaticTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticTest/src/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticTest/src/StaticTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kingsley-Cheng&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kingsley-Cheng/Java.git&quot;,
+    &quot;accountId&quot;: &quot;cc79272c-0d6f-4941-b43e-fa7764856d94&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="30oe84R93vk3XU4iZnSFbmoldrL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kingsleycheng/Documents/github/Java/BasicJava",
+    "onboarding.tips.debug.path": "/Users/kingsleycheng/Documents/BasicJava/CalendarTest/src/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "应用程序.CalendarTest.executor": "Run",
+    "应用程序.Employee.executor": "Run",
+    "应用程序.EmployeeTest.executor": "Run",
+    "应用程序.ManagerTest.executor": "Run",
+    "应用程序.ParamTest.executor": "Run",
+    "应用程序.StaticTest.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
+      <module name="StaticTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Employee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5532f388-c8e6-4b5d-85ec-13a0893a6902" name="更改" comment="" />
+      <created>1754298190100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754298190100</updated>
+    </task>
+    <task id="LOCAL-00001" summary="update(2025-08-06)">
+      <option name="closed" value="true" />
+      <created>1754443068354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754443068354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update(2025-08-06)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update(2025-08-06)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CalendarTest/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

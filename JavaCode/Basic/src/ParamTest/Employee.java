@@ -1,4 +1,6 @@
-// simplified Employee class
+package ParamTest;
+
+// simplified ParamTest.Employee class
 public class Employee {
     private String name;
     private double salary;
