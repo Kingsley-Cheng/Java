@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BasicJava.iml" filepath="$PROJECT_DIR$/.idea/BasicJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalendarTest/CalendarTest.iml" filepath="$PROJECT_DIR$/CalendarTest/CalendarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeTest/EmployeeTest.iml" filepath="$PROJECT_DIR$/EmployeeTest/EmployeeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParamTest/ParamTest.iml" filepath="$PROJECT_DIR$/ParamTest/ParamTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaticTest/StaticTest.iml" filepath="$PROJECT_DIR$/StaticTest/StaticTest.iml" />
+    </modules>
+  </component>
+</project>
