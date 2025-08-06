@@ -1,9 +1,11 @@
+package StaticTest;
+
 class Employee {
     private static int nextId = 1; // static variable
 
     private String name;
     private double salary;
-    private int id; //Employee ID, unique
+    private int id; //StaticTest.Employee ID, unique
 
     public Employee(String n, double s) {
         this.name = n;

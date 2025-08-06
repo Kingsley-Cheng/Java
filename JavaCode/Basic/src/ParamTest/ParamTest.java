@@ -1,3 +1,5 @@
+package ParamTest;
+
 public class ParamTest {
     //doesn't work
     public static void tripleValue(double x) {
