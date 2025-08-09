@@ -1,6 +1,6 @@
 package abstractClasses;
 
-import java.time.*;
+import java.time.LocalDate;
 
 public class Employee extends Person {
     private double salary;

@@ -1,7 +1,5 @@
 package equals;
 
-import java.util.Objects;
-
 public class Manager extends Employee{
     private double bonus;
 

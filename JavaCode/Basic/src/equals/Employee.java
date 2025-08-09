@@ -1,6 +1,6 @@
 package equals;
 
-import java.time.*;
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Employee {
