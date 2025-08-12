@@ -1,4 +1,4 @@
-package equals;
+package pair3;
 
 public class Manager extends Employee {
     private double bonus;
@@ -14,10 +14,6 @@ public class Manager extends Employee {
         return baseSalary + bonus;
     }
 
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
-    }
-
     public boolean equals(Object otherObject) {
         if (!super.equals(otherObject)) return false;
         var other = (Manager) otherObject;
@@ -31,5 +27,13 @@ public class Manager extends Employee {
 
     public String toString() {
         return super.toString() + "[bonus=" + bonus + "]";
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
     }
 }

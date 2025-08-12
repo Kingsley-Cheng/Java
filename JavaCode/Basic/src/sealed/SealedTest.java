@@ -4,6 +4,22 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+enum JSONBoolean implements JSONPrimitive {
+    FALSE, TRUE;
+
+    public String toString() {
+        return super.toString().toLowerCase();
+    }
+}
+
+enum JSONNull implements JSONPrimitive {
+    INSTANCE;
+
+    public String toString() {
+        return "null";
+    }
+}
+
 sealed interface JSONValue permits JSONArray, JSONObject, JSONPrimitive {
     public default String type() {
         if (this instanceof JSONArray) return "array";
@@ -13,6 +29,9 @@ sealed interface JSONValue permits JSONArray, JSONObject, JSONPrimitive {
         else if (this instanceof JSONBoolean) return "boolean";
         else return "null";
     }
+}
+
+sealed interface JSONPrimitive extends JSONValue permits JSONNumber, JSONString, JSONBoolean, JSONNull {
 }
 
 final class JSONArray extends ArrayList<JSONValue> implements JSONValue {
@@ -34,9 +53,6 @@ final class JSONObject extends HashMap<String, JSONValue> implements JSONValue {
     }
 }
 
-sealed interface JSONPrimitive extends JSONValue permits JSONNumber, JSONString, JSONBoolean, JSONNull {
-}
-
 final record JSONNumber(double value) implements JSONPrimitive {
     public String toString() {
         return "" + value;
@@ -46,22 +62,6 @@ final record JSONNumber(double value) implements JSONPrimitive {
 final record JSONString(String value) implements JSONPrimitive {
     public String toString() {
         return "\"" + value.translateEscapes() + "\"";
-    }
-}
-
-enum JSONBoolean implements JSONPrimitive {
-    FALSE, TRUE;
-
-    public String toString() {
-        return super.toString().toLowerCase();
-    }
-}
-
-enum JSONNull implements JSONPrimitive {
-    INSTANCE;
-
-    public String toString() {
-        return "null";
     }
 }
 

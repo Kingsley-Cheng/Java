@@ -8,8 +8,9 @@ package timer;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import java.time.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.time.Instant;
 
 public class TimerTest {
     public static void main(String[] args) {
