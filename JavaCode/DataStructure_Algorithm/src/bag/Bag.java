@@ -1,14 +1,13 @@
 /**
- * 下压堆栈，链表实现
+ * 背包，只进不出，链表实现
  */
-package stack;
+package bag;
 
 import java.util.Iterator;
 
-public class Stack<T> implements Iterable<T> {
-
-    private Node first = null; // 栈顶
-    private int N = 0; // 元素数量
+public class Bag<T> implements Iterable<T> {
+    private Node first = null;
+    private int N = 0;
 
     public boolean isEmpty() {
         return N == 0;
@@ -18,11 +17,10 @@ public class Stack<T> implements Iterable<T> {
         return N;
     }
 
-    void push(T aItem) {
+    public void add(T aItem) {
         if (first == null) {
             first = new Node();
             first.item = aItem;
-            first.next = null;
         } else {
             Node oldfirst = first;
             first = new Node();
@@ -32,12 +30,8 @@ public class Stack<T> implements Iterable<T> {
         N++;
     }
 
-    public T pop() {
-        if (first == null) return null;
-        T temp = first.item;
-        first = first.next;
-        N--;
-        return temp;
+    public Iterator<T> iterator() {
+        return new BagIterator();
     }
 
     public String toString() {
@@ -48,19 +42,14 @@ public class Stack<T> implements Iterable<T> {
             current = current.next;
         }
         return name + "]";
-
-    }
-
-    public Iterator<T> iterator() {
-        return new StackIterator();
     }
 
     private class Node {
-        T item; // 元素
-        Node next; // 结点指向
+        T item;
+        Node next;
     }
 
-    private class StackIterator implements Iterator<T> {
+    private class BagIterator implements Iterator<T> {
         private Node current = first;
 
         @Override

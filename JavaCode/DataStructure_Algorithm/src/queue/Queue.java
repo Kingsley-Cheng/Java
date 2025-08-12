@@ -45,10 +45,11 @@ public class Queue<T> implements Iterable<T> {
     }
 
     public String toString() {
+        Node current = first;
         String name = getClass().getName() + "[";
-        while (first != null) {
-            name += first.item + ", ";
-            first = first.next;
+        while (current != null) {
+            name += current.item + ", ";
+            current = current.next;
         }
         return name + "]";
     }
@@ -59,17 +60,17 @@ public class Queue<T> implements Iterable<T> {
     }
 
     private class QueueIterator implements Iterator<T> {
-        private final Node current = first;
+        private Node current = first;
 
         @Override
         public boolean hasNext() {
-            return first != null;
+            return current != null;
         }
 
         @Override
         public T next() {
-            T tmp = first.item;
-            first = first.next;
+            T tmp = current.item;
+            current = current.next;
             return tmp;
         }
 
