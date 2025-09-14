@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: taco-cloud
+  datasource:
+    # Spring不再为数据库生成随机值
+    generate-unique-name: false
+    # 数据库URL: jdbc:h2:mem:tacocloud
+    name: tacocloud
